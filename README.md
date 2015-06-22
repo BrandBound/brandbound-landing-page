@@ -1,1 +1,3 @@
-# brandbound-landing-page
+# BrandBound
+
+Repository for the BrandBound landing page.
