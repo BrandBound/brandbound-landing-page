@@ -1,0 +1,23 @@
+{
+  "name": "brandbound.github.io",
+  "version": "0.0.1",
+  "description": "Landing page for brandbound.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandBound/brandbound-landing-page.git"
+  },
+  "author": "Osama Sidat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandBound/brandbound-landing-page/issues"
+  },
+  "homepage": "https://github.com/BrandBound/brandbound-landing-page#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.2"
+  }
+}
