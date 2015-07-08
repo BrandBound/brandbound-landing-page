@@ -1,9 +1,32 @@
-doctype html
-html(lang='en')
-  head
-    meta(charset='utf-8')
-    include style
-    title= locals.title
-  body
-    h1= page.title
-    != page.html
+extends layout
+
+block append title
+  title=page.title
+  
+block content
+  .row
+    div.backgroundImage
+      img.logo(src="../images/fulllogo.png")
+      h1 Stand Out from the Crowd
+      div.go-down
+        p Meet the revolutionary platform
+        img.godown(src = "../images/go-down.png")
+  .row
+    div.aboutus
+      h3(style = "font-size: 42px; font-style:italic; color: #0E7dff;") ABOUT US.
+      p(style = "color: #969696;letter-spacing:-0.5px;") Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sagittis ligula urna, ac porttitor orci ultricies non. Quisque ac tempor diam. Vestibulum eu porta turpis, vitae faucibus tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  .row
+    div.section3
+      h3(style = "color: #0E7dff; font-weight:100; font-size: 30pt;") Improve your Google results now!
+      p Look great when employers, clients, and networks google you
+      div.space
+      a(class='border-button') get early access
+      img.mac(src = "../images/mac.png")
+ .row
+   div.section4
+      h3(style = "color: #0E7dff; font-weight:100; font-size: 30pt;") Platforms We Support
+      p more integration to come stay tuned
+      div.space
+ .row
+ 
+ 
