@@ -223,20 +223,20 @@ input {
 
 /* Promise we do not spam */
 
-#signup .spam {
+.spam {
     font-size: 12px;
     padding: 10px 0 10px 0;
     color: #888;
 }
 
-#signup .spam img {
+.spam img {
     margin-top: 10px;
     margin-bottom: -6px;
 }
 
 /* Message if it's ok */
 
-#signup .msg-ok {
+.msg-ok {
 	font-size: 12px;
     padding: 10px 0 10px 0;
     color: #888;
