@@ -135,6 +135,7 @@ div.go-down{
 //SECTION_4
 
 .section4{
+//    background: #100a06;
     background: #ededed;
     z-index: 999;
     padding: 80px 0;
@@ -165,6 +166,7 @@ div.go-down{
 
 form {
     overflow:hidden;
+    width: 100%;
 }
 	
 /* Mail Input Send */
@@ -181,18 +183,18 @@ input {
     border: none;
     margin: 15px 0;
     color: #333;
-    height: 45px;
+    height: 33px;
     resize: none;
     font-size: 12px;
     letter-spacing: 1px;
     padding: 9px 20px 8px;
     transition: all .3s ease-in-out;
-    width: 450px;
+    width: 480px;
     display: inline-block;
 }
 
 .signupbutton {
-    display: inline-block;
+//    display: inline-block;
     background-clip: padding-box;
     background-color: #0E7dff;
     color: #FFF;
@@ -202,8 +204,8 @@ input {
     font-size: 12px;
     cursor: pointer;
     margin: 0px 15px;
-    padding-top:15px;
-    height: 40px;
+    padding:18px 80px 18px 80px;
+    height: 45px;
     font-weight: normal;
     letter-spacing: 3px;
     text-shadow: none;
@@ -229,18 +231,6 @@ input {
     color: #888;
 }
 
-.spam img {
-    margin-top: 10px;
-    margin-bottom: -6px;
-}
-
-/* Message if it's ok */
-
-.msg-ok {
-	font-size: 12px;
-    padding: 10px 0 10px 0;
-    color: #888;
-}
 
 /* Column Classes */
 .row .one.column { width: 6.38298%; }
