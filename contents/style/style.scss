@@ -14,8 +14,7 @@ body {
     padding: 20px 0;
 }
 
-//PAGE_1
-
+/* PAGE 1 */
 h1 {
     font-size: 44px;
     font-weight: 100;
@@ -124,6 +123,7 @@ div.go-down{
 }
 
 .border-button {
+    text-align: center;
 	background: url("../images/go-right.png") no-repeat scroll 95% 50% / 6px auto rgba(0, 0, 0, 0);
     padding: 10px 35px 10px 15px;
     font-weight: normal;
@@ -137,8 +137,6 @@ div.go-down{
     -moz-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;
-    position: absolute;
-    text-align: center;
 }
 
 .border-button:hover {
@@ -180,10 +178,17 @@ div.go-down{
     padding: 40px 0 40px 0;
     height: 400px;
 }
+.footer h4{
+     color:gray;
+    font-weight: 200;
+    font-size: 24pt;
+    text-align: center;
+}
 
 form {
-    overflow:hidden;
+//    overflow:hidden;
     width: 100%;
+    text-align: center;
 }
 	
 /* Mail Input Send */
@@ -196,22 +201,21 @@ input {
     -ms-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
-    border-radius: 3px;
+    border-radius: 4px;
     border: none;
     margin: 15px 0;
     color: #333;
-    height: 33px;
+    height: 40px;
     resize: none;
     font-size: 12px;
     letter-spacing: 1px;
-    padding: 9px 20px 8px;
+    padding: 4px 20px 8px;
     transition: all .3s ease-in-out;
     width: 480px;
     display: inline-block;
 }
 
 .signupbutton {
-//    display: inline-block;
     background-clip: padding-box;
     background-color: $blue;
     color: #FFF;
@@ -222,7 +226,7 @@ input {
     cursor: pointer;
     margin: 0px 15px;
     padding:18px 80px 18px 80px;
-    height: 45px;
+    height: 40px;
     font-weight: normal;
     letter-spacing: 3px;
     text-shadow: none;
@@ -249,4 +253,4 @@ input {
 }
 
 /* Column Classes */
-.row .ten.columns { width: 82.97872%; }
+.row .ten.csolumns { width: 82.97872%; }

@@ -20,8 +20,10 @@ var ajax_form = true;
 
 $(document).ready(function () { // Document ready
 
-
-
+$('#transitionbutton').click(function () {
+    $('html, body').animate({scrollTop:$(document).height()}, 'slow');
+    return false;
+});
 /*-----------------------------------------------------------------------------------*/
     /*	01. NAVBAR STICKY + SELECTED
 /*-----------------------------------------------------------------------------------*/
