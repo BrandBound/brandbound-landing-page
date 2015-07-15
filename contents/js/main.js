@@ -19,11 +19,16 @@
 var ajax_form = true;
 
 $(document).ready(function () { // Document ready
-
-$('#transitionbutton').click(function () {
-    $('html, body').animate({scrollTop:$(document).height()}, 'slow');
-    return false;
-});
+    
+    $('#transitionbutton').click(function () {
+        $('html, body').animate({
+            scrollTop: $(document).height()
+        }, 'slow');
+        return false;
+//        alert("I am an alert box!");
+    });
+    
+    
 /*-----------------------------------------------------------------------------------*/
     /*	01. NAVBAR STICKY + SELECTED
 /*-----------------------------------------------------------------------------------*/
