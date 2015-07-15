@@ -3,9 +3,9 @@
   div.space
   img(src = "../images/appstore.png", href="apple.com")
   h4 Subscribe to our newsletter and stay updated on the release
-  form.pure-u-5-6(action=page.metadata.email, method="POST")
-    input.pure-u-12-15(type='text' name='email' placeholder = 'Your E-Mail') 
-    a.signupbutton.pure-u-3-15(class='button' name = 'send' type='submit') Notify me
+  form.pure-form(action=page.metadata.email, method="POST")
+    fieldset
+      input(type = 'email', placeholder = 'Your E-Mail')
+      button.signupbutton(type = 'submit' class = 'pure-button pure-button-primary' name= 'send') Notify me
   p.spam We use MailChimp for a perfect mailing list.
-  
   
