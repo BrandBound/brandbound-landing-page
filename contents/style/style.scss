@@ -45,7 +45,6 @@ div.backgroundImage{
 div.go-down{
     color: lightgray;
     font-weight: 100;
-    position: absolute;
     right: 0;
     bottom: 30px;
     left: 0;
@@ -71,11 +70,10 @@ div.go-down{
     font-style:italic; 
     color: $blue;
     text-align: left;
-    padding-left: 15%;
     font-weight: 200;
-    display: block;
-    position: absolute;
-    
+    display: inline;
+    position:relative;
+    padding-left: 15%;
 }
  
 .aboutus p{
@@ -83,9 +81,10 @@ div.go-down{
     letter-spacing:-0.5px;
     font-weight: 320;
     text-align: left;
-    display: inline-block;
-    width: 55%;
-    padding-left: 30%;
+    display: inline;
+    position: relative;
+//    width: 55%;
+    padding-left: 5%;
     line-height: 30px;
 }
 
@@ -96,6 +95,7 @@ div.go-down{
     z-index: 999;
     padding: 80px 0;
     height: 650px;
+    width: 102%;
     margin: -1% -1% -1% -1%;
     color: lightgray;
     font-weight: 100;
@@ -110,9 +110,8 @@ div.go-down{
      text-decoration:none;   
 }
 .mac{
-    padding-top: 10%;
-	max-width: 940px;
-	bottom: -30px;
+    padding-top: 5%;
+    width: 990px;
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
 	-moz-transition: -moz-transform 0.5s, opacity 0.5s;
 	transition: transform 0.5s, opacity 0.5s;
@@ -152,6 +151,7 @@ div.go-down{
     z-index: 999;
     padding: 80px 0;
     height: 450px;
+    width: 102%;
     margin: -1% -1% -1% -1%;
     color: $blue;
     font-weight: 100;
@@ -212,7 +212,7 @@ input {
     padding: 4px 20px 8px;
     transition: all .3s ease-in-out;
     width: 480px;
-    display: inline-block;
+//    display: inline-block;
 }
 
 .signupbutton {
