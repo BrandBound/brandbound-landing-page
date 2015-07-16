@@ -3,15 +3,12 @@
 	EXHO TEMPLATE  V1.0 BY SUPVIEW.BE
 	
 	
-	01. Sticky Navbar
+	01. ACCESS BUTTON SLIDE ANIMATION
 	02. Flexslider ( testimonials )
-	03. Share Button
-	04. Drag-it img fade Out on Click
-	05. Initialise the Carousel
+	
 	06. Form Settings
-	07. MediaCheck 
-	08. Animations make-it-appear
-	09. VideoBackground 
+	
+    
 	10. Load the Whole Page
 
 */
@@ -20,6 +17,13 @@ var ajax_form = true;
 
 $(document).ready(function () { // Document ready
     
+    
+    
+/*-----------------------------------------------------------------------------------*/
+    /*	01. ACCESS BUTTON SLIDE ANIMATION
+/*-----------------------------------------------------------------------------------*/
+
+    
     $('#transitionbutton').click(function () {
         $('html, body').animate({
             scrollTop: $(document).height()
@@ -27,12 +31,10 @@ $(document).ready(function () { // Document ready
         return false;
 //        alert("I am an alert box!");
     });
-    
-    
-/*-----------------------------------------------------------------------------------*/
-    /*	01. NAVBAR STICKY + SELECTED
-/*-----------------------------------------------------------------------------------*/
 
+    $(function() {
+    $(".rslides").responsiveSlides();
+  });
 /*-----------------------------------------------------------------------------------*/
     /*	02. FLEXSLIDER - TESTIMONIAL
 /*-----------------------------------------------------------------------------------*/
@@ -58,7 +60,6 @@ $(document).ready(function () { // Document ready
         slideshowSpeed: 3000,
         slideToStart: 0,
     });
-
 
 
 /*-----------------------------------------------------------------------------------*/
