@@ -4,9 +4,9 @@
   a(href = "http://www.apple.com")
     img(src = "../images/appstore.png")
   h4 Subscribe to our newsletter and stay updated on the release
-  form.pure-form(action=page.metadata.email, method="POST")
+  form.pure-form(action='//formspree.io/your@mail.com' method="POST")
     fieldset
-      input(type = 'email', placeholder = 'Your E-Mail')
-      button.signupbutton(type = 'submit' class = 'pure-button pure-button-primary' name= 'send') Notify me
+      input(type = 'email', placeholder = 'Your E-Mail' name='_replyto')
+      button.signupbutton(type = 'submit' class = 'pure-button pure-button-primary' value= 'Send') Notify me
   p.spam We use MailChimp for a perfect mailing list.
   
