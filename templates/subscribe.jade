@@ -1,8 +1,10 @@
 div#signup
 div.space
 h4 Subscribe to our newsletter and stay updated on the release
-form.pure-form(action='//formspree.io/your@mail.com' method="POST")
-  fieldset
-    input(type = 'email', placeholder = 'Your E-Mail' name='_replyto')
-    button.signupbutton(type = 'submit' class = 'pure-button pure-button-primary' value= 'Send') Notify me
+form#mc-embedded-subscribe-form.validate.pure-form(action='//github.us11.list-manage.com/subscribe/post?u=27483462d556d513c3420a8cd&id=9eb9388961', method='post', name='mc-embedded-subscribe-form', target='_blank', novalidate='')
+  #mc_embed_signup_scroll
+    input#mce-EMAIL.email(type='email', value='', name='EMAIL', placeholder='Your Email', required='')
+    div(style='position: absolute; left: -5000px;')
+      input(type='text', name='b_27483462d556d513c3420a8cd_9eb9388961', tabindex='-1', value='')
+    button#mc-embedded-subscribe.signupbutton(type='submit' class='pure-button pure-button-primary' name='subscribe' value='Send') Notify Me!
 p.spam We use MailChimp for a perfect mailing list - no spam, we promise!.
