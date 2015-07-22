@@ -62,7 +62,7 @@ div.backgroundImage{
     width: 135px;
     height: 65px;
     position: fixed;
-    
+
 }
 div.go-down{
     color: lightgray;
@@ -90,8 +90,8 @@ div.go-down{
     font-family: 'Source Sans Pro';
 }
 .aboutus h3{
-    font-size: 42px; 
-    font-style:italic; 
+    font-size: 42px;
+    font-style:italic;
     color: $blue;
     text-align: left;
     font-weight: 200;
@@ -100,7 +100,7 @@ div.go-down{
     padding-left: 15%;
     letter-spacing: -2px;
 }
- 
+
 .aboutus p{
     color: #969696;
     letter-spacing:0px;
@@ -163,12 +163,12 @@ div.go-down{
     font-family: 'Source Sans Pro';
 }
 .section3 h3{
-    color: $blue; 
-    font-weight:100; 
-    font-size: 30pt;   
+    color: $blue;
+    font-weight:100;
+    font-size: 30pt;
 }
 .section3 a{
-     text-decoration:none;   
+     text-decoration:none;
 }
 .mac{
     padding-top: 5%;
@@ -221,8 +221,8 @@ div.go-down{
     font-family: 'Source Sans Pro';
 }
 .section4 h3{
-    font-weight:100; 
-    font-size: 30pt;   
+    font-weight:100;
+    font-size: 30pt;
 }
 .social{
     height: 20%;
@@ -235,12 +235,10 @@ div.go-down{
 
 .footer{
     background: #fff no-repeat center;
-    z-index: 999;
     padding: 40px 0 40px 0;
-    height: 400px;
 }
 .footer h4{
-     color:gray;
+    color:gray;
     font-weight: 200;
     font-size: 24pt;
     text-align: center;
@@ -251,7 +249,7 @@ form {
     width: 100%;
     text-align: center;
 }
-	
+
 /* Mail Input Send */
 
 input {
@@ -304,10 +302,13 @@ input {
     background: #87d5fe;
 }
 
-/* Promise we do not spam */
-
 .spam {
     font-size: 12px;
     padding: 10px 0 10px 0;
     color: #888;
+}
+
+.copyright {
+  margin-top: 50px;
+  font-weight: 100;
 }
