@@ -33,6 +33,8 @@ div.backgroundImage{
     height:730px;
     margin: -1.2%;
     background-image: url("../images/backimage.png");
+    background-position: center center;
+//    background-attachment: fixed;
     background-size:cover;
 }
 
@@ -78,12 +80,14 @@ div.go-down{
     display: inline;
     position:relative;
     padding-left: 15%;
+    letter-spacing: -2px;
 }
  
 .aboutus p{
     color: #969696;
-    letter-spacing:-0.5px;
-    font-weight: 320;
+    letter-spacing:0px;
+    font-size: 14pt;
+    font-weight: 250;
     text-align: left;
     display: inline;
     position: relative;
@@ -92,6 +96,36 @@ div.go-down{
     line-height: 30px;
 }
 
+.world{
+    background: #181C2D no-repeat center;
+//    background-image: url("../images/world.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    z-index: 999;
+    padding: 80px 0;
+    height: 300px;
+    width: 102%;
+    margin: -1% -1% -1% -1%;
+    font-family:  sans-serif;
+    color: $blue;
+    /* custom background-position */
+    background-position:50% 50%;
+    position: relative;
+}
+.world h3{
+    font-size: 42px;
+    font-weight: 200;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro';
+}
+.world p{
+    color:lightgray;
+    font-weight: 100;
+    line-height: 25px;
+//    float: left;
+//    text-align: left;
+    
+}
 /*-----------------------------------------------------------------------------------*/
 /*	section.3
 /*-----------------------------------------------------------------------------------*/
@@ -106,6 +140,7 @@ div.go-down{
     color: lightgray;
     font-weight: 100;
     font-family: 'Source Sans Pro';
+    position:relative;
 }
 .section3 h3{
     color: $blue; 
@@ -173,9 +208,7 @@ div.go-down{
     height: 20%;
     width: 20%;
 }
-#aboutme{
-     height: 300px; 
-}
+
 /*-----------------------------------------------------------------------------------*/
 /*	5. Footer (Sign-Up)
 /*-----------------------------------------------------------------------------------*/
