@@ -38,22 +38,6 @@ $(document).ready(function () { // Document ready
     
     
     
-    /* fix vertical when not overflow
-call fullscreenFix() if .fullscreen content changes */
-function fullscreenFix(){
-    var h = $('body').height();
-    // set .fullscreen height
-    $(".backgroundImage").each(function(i){
-        if($(this).innerHeight() <= h){
-            $(this).closest(".fullscreen").addClass("not-overflow");
-        }
-    });
-}
-$(window).resize(fullscreenFix);
-fullscreenFix();
-    
-    
-    
 /*-----------------------------------------------------------------------------------*/
     /*	02. FLEXSLIDER - TESTIMONIAL
 /*-----------------------------------------------------------------------------------*/

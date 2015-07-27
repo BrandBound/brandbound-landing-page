@@ -35,6 +35,9 @@ div.backgroundImage{
     background-image: url("../images/backimage.png");
     background-position: center center;
 //    background-attachment: fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
     background-size:cover;
 }
 
@@ -96,6 +99,10 @@ div.go-down{
     line-height: 30px;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/*	2.5 1Billion
+/*-----------------------------------------------------------------------------------*/
+
 .world{
     background: #181C2D no-repeat center;
 //    background-image: url("../images/world.png");
@@ -110,7 +117,6 @@ div.go-down{
     color: $blue;
     /* custom background-position */
     background-position:50% 50%;
-    position: relative;
 }
 .world h3{
     font-size: 42px;
@@ -140,7 +146,6 @@ div.go-down{
     color: lightgray;
     font-weight: 100;
     font-family: 'Source Sans Pro';
-    position:relative;
 }
 .section3 h3{
     color: $blue; 
