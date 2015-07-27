@@ -2,13 +2,8 @@
 
 	EXHO TEMPLATE  V1.0 BY SUPVIEW.BE
 	
-	
 	01. ACCESS BUTTON SLIDE ANIMATION
-	02. Flexslider ( testimonials )
-	
 	06. Form Settings
-	
-    
 	10. Load the Whole Page
 
 */
@@ -35,41 +30,10 @@ $(document).ready(function () { // Document ready
     $(function() {
     $(".rslides").responsiveSlides();
   });
-    
-    
-    
-/*-----------------------------------------------------------------------------------*/
-    /*	02. FLEXSLIDER - TESTIMONIAL
-/*-----------------------------------------------------------------------------------*/
-
-
-    $('#slider1').flexslider({
-        animation: "fade",
-        directionNav: false,
-        controlNav: false,
-        smoothHeight: true,
-        animationLoop: true,
-        slideshowSpeed: 3000,
-        slideToStart: 0,
-    });
-
-    $('#slider2').flexslider({
-        animation: "slide",
-        directionNav: true,
-        controlNav: false,
-        smoothHeight: true,
-        animationLoop: true,
-        sync: "#slider1",
-        slideshowSpeed: 3000,
-        slideToStart: 0,
-    });
-
 
 /*-----------------------------------------------------------------------------------*/
     /*	06. FORM SENDER
 /*-----------------------------------------------------------------------------------*/
-
-
 
     /* Form Submission */
     $('form').submit(function () {
@@ -103,7 +67,6 @@ $(document).ready(function () { // Document ready
 
     });
 
-
     /* Validate E-Mail */
 
     function validateEmail(email) {
@@ -121,14 +84,10 @@ $(document).ready(function () { // Document ready
 /*	10. Load the Whole Page
 /*-----------------------------------------------------------------------------------*/
 
-
-
 $(window).load(function () {
     // will first fade out the loading animation
     jQuery("#loading-animation").fadeOut();
     // will fade out the whole DIV that covers the website.
     jQuery("#preloader").delay(600).fadeOut("slow");
-
-
 
 });
