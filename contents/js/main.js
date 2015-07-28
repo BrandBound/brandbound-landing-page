@@ -1,17 +1,31 @@
 /*
 
 	EXHO TEMPLATE  V1.0 BY SUPVIEW.BE
-	
-	01. ACCESS BUTTON SLIDE ANIMATION
-	06. Form Settings
-	10. Load the Whole Page
+
 
 */
 
 var ajax_form = true;
 
 $(document).ready(function () { // Document ready
+   
+ /*-----------------------------------------------------------------------------------*/
+    /*	00. CHANGE HEADER COLOUR (DARK OVERLAY)
+/*-----------------------------------------------------------------------------------*/   
     
+   var scroll_start = 0;
+   var startchange = $('#platforms');
+   var offset = startchange.offset();
+    
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start < offset.top+10) {
+          $('#header').css('background-color', 'clear');
+       }
+       else {
+          $('#header').css('background-color', '#d3d3d3');
+       }
+   });
     
     
 /*-----------------------------------------------------------------------------------*/
@@ -26,26 +40,15 @@ $(document).ready(function () { // Document ready
         return false;
 //        alert("I am an alert box!");
     });
+    
+    
+    /*-----------------------------------------------------------------------------------*/
+    /*	02. SLIDER
+/*-----------------------------------------------------------------------------------*/
 
     $(function() {
     $(".rslides").responsiveSlides();
   });
-
-    
-   
-    
-    
-   var scroll_start = 0;
-   var startchange = $('#platforms');
-   var offset = startchange.offset();
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start < offset.top) {
-          $('#header').css('background-color', 'clear');
-       } else {
-          $('#header').css('background-color', '#f0f0f0');
-       }
-   });
     
     
     

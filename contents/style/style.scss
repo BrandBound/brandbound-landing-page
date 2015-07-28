@@ -16,7 +16,7 @@ body {
 #header{
     position: fixed;
     height: 10%;
-    opacity: 0.8;
+    opacity: 0.9;
     display:block;
     top: 0px;
     width: 100%;
@@ -51,8 +51,8 @@ div.backgroundImage{
     background-position: center center;
 //    background-attachment: fixed;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size:cover;
 }
 
