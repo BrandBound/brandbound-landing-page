@@ -1,22 +1,31 @@
 /*
 
 	EXHO TEMPLATE  V1.0 BY SUPVIEW.BE
-	
-	
-	01. ACCESS BUTTON SLIDE ANIMATION
-	02. Flexslider ( testimonials )
-	
-	06. Form Settings
-	
-    
-	10. Load the Whole Page
+
 
 */
 
 var ajax_form = true;
 
 $(document).ready(function () { // Document ready
+   
+ /*-----------------------------------------------------------------------------------*/
+    /*	00. CHANGE HEADER COLOUR (DARK OVERLAY)
+/*-----------------------------------------------------------------------------------*/   
     
+   var scroll_start = 0;
+   var startchange = $('#platforms');
+   var offset = startchange.offset();
+    
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start < offset.top+10) {
+          $('#header').css('background-color', 'clear');
+       }
+       else {
+          $('#header').css('background-color', '#d3d3d3');
+       }
+   });
     
     
 /*-----------------------------------------------------------------------------------*/
@@ -31,42 +40,21 @@ $(document).ready(function () { // Document ready
         return false;
 //        alert("I am an alert box!");
     });
+    
+    
+    /*-----------------------------------------------------------------------------------*/
+    /*	02. SLIDER
+/*-----------------------------------------------------------------------------------*/
 
     $(function() {
     $(".rslides").responsiveSlides();
   });
-/*-----------------------------------------------------------------------------------*/
-    /*	02. FLEXSLIDER - TESTIMONIAL
-/*-----------------------------------------------------------------------------------*/
-
-
-    $('#slider1').flexslider({
-        animation: "fade",
-        directionNav: false,
-        controlNav: false,
-        smoothHeight: true,
-        animationLoop: true,
-        slideshowSpeed: 3000,
-        slideToStart: 0,
-    });
-
-    $('#slider2').flexslider({
-        animation: "slide",
-        directionNav: true,
-        controlNav: false,
-        smoothHeight: true,
-        animationLoop: true,
-        sync: "#slider1",
-        slideshowSpeed: 3000,
-        slideToStart: 0,
-    });
-
-
+    
+    
+    
 /*-----------------------------------------------------------------------------------*/
     /*	06. FORM SENDER
 /*-----------------------------------------------------------------------------------*/
-
-
 
     /* Form Submission */
     $('form').submit(function () {
@@ -100,7 +88,6 @@ $(document).ready(function () { // Document ready
 
     });
 
-
     /* Validate E-Mail */
 
     function validateEmail(email) {
@@ -118,14 +105,10 @@ $(document).ready(function () { // Document ready
 /*	10. Load the Whole Page
 /*-----------------------------------------------------------------------------------*/
 
-
-
 $(window).load(function () {
     // will first fade out the loading animation
     jQuery("#loading-animation").fadeOut();
     // will fade out the whole DIV that covers the website.
     jQuery("#preloader").delay(600).fadeOut("slow");
-
-
 
 });
