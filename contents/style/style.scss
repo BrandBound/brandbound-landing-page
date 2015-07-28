@@ -13,6 +13,21 @@ body {
     padding: 20px 0;
 }
 
+#header{
+    position: fixed;
+    height: 10%;
+    opacity: 0.8;
+    display:block;
+    top: 0px;
+    width: 100%;
+    background: clear;
+    z-index:9;
+    text-align:left;
+    color: #000;
+//    padding: 10px 0 0 10px;
+
+}
+
 /*-----------------------------------------------------------------------------------*/
 /*	1. First Page
 /*-----------------------------------------------------------------------------------*/
