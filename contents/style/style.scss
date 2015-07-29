@@ -3,9 +3,28 @@
 $compressed: true;
 $blue: #0E7dff;
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Source Sans Pro', Helvetica, sans-serif;
   text-align: center;
+  margin: 0;
+  height: 100%;
+}
+
+nav {
+  background-color: rgba(24, 28, 45, 0.5);
+  padding: 20px 0 20px 13%;
+  position: fixed;
+  width: 100%;
+
+  .logo {
+      display: block;
+      width: 115px;
+      height: auto;
+  }
 }
 
 /* Make a space */
@@ -43,7 +62,7 @@ div.backgroundImage{
     width:102%;
     height:730px;
     margin: -1.2%;
-    background: url("../images/backimage.png") no-repeat 50% 50% fixed; 
+    background: url("../images/backimage.png") no-repeat 50% 50% fixed;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -51,14 +70,6 @@ div.backgroundImage{
     background-color: #181C2D;
 }
 
-.logo{
-    display:block;
-    padding: 30px 0px 0px 13%;
-    width: 135px;
-    height: 65px;
-    position: fixed;
-
-}
 div.go-down{
     color: lightgray;
     font-weight: 100;
@@ -141,7 +152,7 @@ div.go-down{
     line-height: 25px;
 //    float: left;
 //    text-align: left;
-    
+
 }
 /*-----------------------------------------------------------------------------------*/
 /*	section.3
