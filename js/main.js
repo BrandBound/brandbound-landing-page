@@ -1,32 +1,24 @@
 /*
-
 	EXHO TEMPLATE  V1.0 BY SUPVIEW.BE
-
-
 */
 
 var ajax_form = true;
 
 $(document).ready(function () { // Document ready
    
+    
+    
  /*-----------------------------------------------------------------------------------*/
     /*	00. CHANGE HEADER COLOUR (DARK OVERLAY)
 /*-----------------------------------------------------------------------------------*/   
-    
-   var scroll_start = 0;
-   var startchange = $('#platforms');
-   var offset = startchange.offset();
-    
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start < offset.top+10) {
-          $('#header').css('background-color', 'clear');
-       }
-       else {
-          $('#header').css('background-color', '#d3d3d3');
-       }
-   });
-    
+   
+    $(window).scroll(function(){
+        var top=$(window).scrollTop()
+        console.log(top)
+        /*put your color in background color */
+        if(top>2360){ $('#header').css('background-color','#d3d3d3'); }
+        else{ $('#header').css('background-color','Transparent'); }
+    });
     
 /*-----------------------------------------------------------------------------------*/
     /*	01. ACCESS BUTTON SLIDE ANIMATION
