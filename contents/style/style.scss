@@ -40,20 +40,29 @@ h1 {
     color:floralwhite;
     text-align: center;
     line-height: 600px;
-    display: inline-block;
+//    display: inline-block;
+//    position: relative;
+    vertical-align: middle;
 }
 
 div.backgroundImage{
     width:102%;
     height:730px;
     margin: -1.2%;
-    background-image: url("../images/backimage.png");
-    background-position: center center;
-//    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size:cover;
+//    background-image: url("../images/backimage.png");
+//    background-position: center center;
+////    background-attachment: fixed;
+//    -webkit-background-size: cover;
+//    -moz-background-size: cover;
+//    -o-background-size: cover;
+//    background-size:cover;
+//    
+//    position: relative;
+     background: url("../images/backimage.png") no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 .logo{
