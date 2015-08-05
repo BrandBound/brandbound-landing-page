@@ -2,12 +2,14 @@ extends layout
   
 block content
   include navbar
-  .row
-    div#firstpage.backgroundImage.pure-u-md
-      h1 Stand Out from the Crowd
-      div.go-down.pure-u-3-15
-        p Meet the revolutionary platform
-        img.godown(src = "../images/go-down.png")
+  .page
+    .backgroundImage.pure-u-md
+      .row.page-section
+        .main-heading Stand Out from the Crowd
+      .row.page-section
+        .go-down.pure-u-3-15
+          p Meet the revolutionary platform
+          img.godown(src = "../images/go-down.png")
   .row
     div.aboutus.pure-g
       h3.pure-u-5-26 ABOUT US.
