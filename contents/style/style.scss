@@ -51,127 +51,72 @@ nav {
 .subscribe-button {
   margin-top: 0.7em;
 }
-/* Make a space */
+
 .space {
     padding: 20px 0;
-}
-
-#header{
-    position: fixed;
-    height: 10%;
-    opacity: 0.9;
-    display:block;
-    top: 0px;
-    width: 100%;
-    background: clear;
-    color: #000;
 }
 
 .main-heading {
     font-size: 44px;
     font-weight: 100;
-    font-family: 'Source Sans Pro', sans-serif;
-    position: absolute;
+    position: relative;
     top: 60%;
     color: floralwhite;
     text-align: center;
     width: 100%;
-    vertical-align: middle;
 }
 
-.backgroundImage{
+.sub-heading {
+  color: $blue;
+  font-size: 42px;
+  font-weight: 200;
+}
+
+.general-text {
+  color: #969696;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.backgroundImage {
     height: 100%;
     background: url("../images/backimage.png") no-repeat 50% 50%;
     background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -webkit-background-size: cover;
     background-color: #181C2D;
 }
 
-.go-down{
+.go-down {
     color: lightgray;
     font-weight: 100;
-    position: absolute;
-    bottom: 30%;
+    position: relative;
+    top: 40%;
     text-align: center;
     margin: auto;
     width: 100%;
     height: 50px;
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*	2. About Us
-/*-----------------------------------------------------------------------------------*/
+.section-container {
+  height: 100%;
+  background: #181C2D no-repeat center;
+}
 
-.aboutus{
-    background: #181C2D no-repeat center;
+.about-us {
     background-image: url("../images/scribble.png");
-    padding: 150px 0 150px 0;
-    margin: 1% 0 0 -1.2%;
-    height: 100%;
-    width: 102%;
-    font-family: 'Source Sans Pro';
-}
-.aboutus h3{
-    font-size: 42px;
-    font-style:italic;
-    color: $blue;
-    text-align: left;
-    font-weight: 200;
-    display: inline;
-    position:relative;
-    padding-left: 15%;
-    letter-spacing: -2px;
 }
 
-.aboutus p{
-    color: #969696;
-    letter-spacing:0px;
-    font-size: 14pt;
-    font-weight: 250;
-    text-align: left;
-    display: inline;
-    position: relative;
-//    width: 55%;
-    padding-left: 5%;
-    line-height: 30px;
-}
-
-/*-----------------------------------------------------------------------------------*/
-/*	2.5 1 Billion
-/*-----------------------------------------------------------------------------------*/
-
-.world{
-    background: #181C2D no-repeat center;
+.world {
     background-image: url("../images/scribble_flipped.png");
-//    background-image: url("../images/world.png");
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    z-index: 999;
-    padding: 80px 0;
-    height: 300px;
-    width: 102%;
-    margin: -1% -1% -1% -1%;
-    font-family:  sans-serif;
-    color: $blue;
-    /* custom background-position */
-    background-position:50% 50%;
 }
-.world h3{
-    font-size: 42px;
-    font-weight: 200;
-    letter-spacing: 0px;
-    font-family: 'Source Sans Pro';
-}
-.world p{
-    color:lightgray;
-    font-weight: 100;
-    line-height: 25px;
-//    float: left;
-//    text-align: left;
 
+.content-container {
+  @include vertical-align;
+  padding: 0 20px;
 }
+
+
 /*-----------------------------------------------------------------------------------*/
 /*	section.3
 /*-----------------------------------------------------------------------------------*/
