@@ -44,9 +44,9 @@ nav {
   z-index: 1;
 
   .logo {
-      display: block;
-      width: 115px;
-      height: auto;
+    display: block;
+    width: 115px;
+    height: auto;
   }
 }
 
@@ -55,17 +55,17 @@ nav {
 }
 
 .space {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .main-heading {
-    font-size: 44px;
-    font-weight: 100;
-    position: relative;
-    top: 60%;
-    color: floralwhite;
-    text-align: center;
-    width: 100%;
+  font-size: 44px;
+  font-weight: 100;
+  position: relative;
+  top: 60%;
+  color: floralwhite;
+  text-align: center;
+  width: 100%;
 }
 
 .sub-heading {
@@ -83,21 +83,21 @@ nav {
 }
 
 .backgroundImage {
-    height: 100%;
-    background: url("../images/backgrounds/backimage.png") no-repeat 50% 50%;
-    background-size: cover;
-    background-color: #181C2D;
+  height: 100%;
+  background: url("../images/backgrounds/backimage.png") no-repeat 50% 50%;
+  background-size: cover;
+  background-color: #181C2D;
 }
 
 .go-down {
-    color: lightgray;
-    font-weight: 100;
-    position: relative;
-    top: 40%;
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    height: 50px;
+  color: lightgray;
+  font-weight: 100;
+  position: relative;
+  top: 40%;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 50px;
 }
 
 .section-container {
@@ -106,11 +106,11 @@ nav {
 }
 
 .about-us {
-    background-image: $scribble;
+  background-image: $scribble;
 }
 
 .world {
-    background-image: $scribble-flipped;
+  background-image: $scribble-flipped;
 }
 
 .content-container {
@@ -131,15 +131,15 @@ nav {
 }
 
 .mac-image {
-    padding: 2% 0;
-    width: 990px;
+  padding: 2% 0;
+  width: 990px;
 }
 
 .button {
-    font-family: 'Source Sans Pro', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-top: 0.7em;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 0.7em;
 }
 
 .social {
@@ -157,8 +157,8 @@ ul.image-grid {
 }
 
 .footer {
-    background: #fff no-repeat center;
-    padding: 10px 0 10px 0;
+  background: #fff no-repeat center;
+  padding: 10px 0 10px 0;
 }
 
 .signup {
@@ -173,14 +173,14 @@ ul.image-grid {
 }
 
 .spam {
-    font-size: 12px;
-    padding: 10px 0 10px 0;
-    color: #888;
+  font-size: 12px;
+  padding: 10px 0 10px 0;
+  color: #888;
 }
 
 .copyright {
-    margin: 20px 0;
-    font-weight: 100;
-    font-family: 'Source Sans Pro';
-    font-size: 10pt;
+  margin: 20px 0;
+  font-weight: 100;
+  font-family: 'Source Sans Pro';
+  font-size: 10pt;
 }
