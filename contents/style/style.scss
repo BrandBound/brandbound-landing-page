@@ -142,33 +142,21 @@ nav {
     margin-top: 0.7em;
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*	section.4 (Social Media)
-/*-----------------------------------------------------------------------------------*/
-
-.section4{
-//    background: #100a06;
-    background: #ededed;
-    background-image: $scribble;
-    z-index: 999;
-    padding: 80px 0;
-    height: 450px;
-    width: 102%;
-    margin: -1% -1% -1% -1%;
-    color: $blue;
-    font-weight: 100;
-    font-family: 'Source Sans Pro';
-}
-.section4 h3{
-    font-weight:100;
-    font-size: 30pt;
-}
-.social{
-    height: 20%;
-    width: 20%;
+.social {
+  margin: 10px;
 }
 
-.footer{
+ul.image-grid {
+  margin: 0;
+  padding: 0;
+
+  li {
+    list-style: none;
+    margin-bottom: 25px;
+  }
+}
+
+.footer {
     background: #fff no-repeat center;
     padding: 10px 0 10px 0;
 }
