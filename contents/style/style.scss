@@ -2,6 +2,8 @@
 
 $compressed: true;
 $blue: #0E7dff;
+$scribble: url("../images/backgrounds/scribble.png");
+$scribble-flipped: url("../images/backgrounds/scribble_flipped.png");
 
 @mixin vertical-align {
   position: relative;
@@ -82,7 +84,7 @@ nav {
 
 .backgroundImage {
     height: 100%;
-    background: url("../images/backimage.png") no-repeat 50% 50%;
+    background: url("../images/backgrounds/backimage.png") no-repeat 50% 50%;
     background-size: cover;
     background-color: #181C2D;
 }
@@ -104,11 +106,11 @@ nav {
 }
 
 .about-us {
-    background-image: url("../images/scribble.png");
+    background-image: $scribble;
 }
 
 .world {
-    background-image: url("../images/scribble_flipped.png");
+    background-image: $scribble-flipped;
 }
 
 .content-container {
@@ -119,7 +121,13 @@ nav {
 .improve-results {
   height: 100%;
   background: #060C13;
-  background-image: url("../images/scribble.png");
+  background-image: $scribble;
+}
+
+.platforms {
+  height: 100%;
+  background: #ededed;
+  background-image: $scribble;
 }
 
 .mac-image {
@@ -141,7 +149,7 @@ nav {
 .section4{
 //    background: #100a06;
     background: #ededed;
-    background-image: url("../images/scribble.png");
+    background-image: $scribble;
     z-index: 999;
     padding: 80px 0;
     height: 450px;
@@ -160,24 +168,20 @@ nav {
     width: 20%;
 }
 
-/*-----------------------------------------------------------------------------------*/
-/*	5. Footer (Sign-Up)
-/*-----------------------------------------------------------------------------------*/
-
 .footer{
     background: #fff no-repeat center;
-    padding: 40px 0 40px 0;
+    padding: 10px 0 10px 0;
 }
-.footer h4{
-    color:gray;
+
+.signup {
+  height: 100%;
+
+  h4 {
+    color: gray;
     font-weight: 200;
     font-size: 24pt;
     text-align: center;
-}
-
-#signup {
-  -webkit-transition: -webkit-transform 1.0s ease-in-out;
-  transition: transform 1.0s ease-in-out;
+  }
 }
 
 .spam {
@@ -187,7 +191,7 @@ nav {
 }
 
 .copyright {
-    margin-top: 50px;
+    margin: 20px 0;
     font-weight: 100;
     font-family: 'Source Sans Pro';
     font-size: 10pt;
