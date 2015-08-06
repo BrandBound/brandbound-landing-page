@@ -5,8 +5,6 @@
 var ajax_form = true;
 
 $(document).ready(function () { // Document ready
-   
-    
     
  /*-----------------------------------------------------------------------------------*/
     /*	00. CHANGE HEADER COLOUR (DARK OVERLAY)
@@ -41,7 +39,6 @@ $(document).ready(function () { // Document ready
     $(function() {
     $(".rslides").responsiveSlides();
   });
-    
     
     
 /*-----------------------------------------------------------------------------------*/
