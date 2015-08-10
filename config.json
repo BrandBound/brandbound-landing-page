@@ -3,6 +3,7 @@
     "title": "BrandBound"
   },
   "plugins": [
-    "wintersmith-sass"
-  ]
+    "wintersmith-autoprefixer-sass"
+  ],
+  "port": 3000
 }
