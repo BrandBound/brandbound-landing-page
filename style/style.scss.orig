@@ -1,0 +1,320 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900);
+
+$compressed: true;
+$blue: #0E7dff;
+
+body {
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* Make a space */
+.space {
+    padding: 20px 0;
+}
+
+#header{
+    position: fixed;
+    height: 10%;
+    opacity: 0.9;
+    display:block;
+    top: 0px;
+    width: 100%;
+    background: clear;
+    z-index:9;
+    text-align:left;
+    color: #000;
+//    padding: 10px 0 0 10px;
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	1. First Page
+/*-----------------------------------------------------------------------------------*/
+
+h1 {
+    font-size: 44px;
+    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 0.33em;
+    color:floralwhite;
+    text-align: center;
+    line-height: 600px;
+    display: inline-block;
+}
+
+div.backgroundImage{
+    width:102%;
+    height:730px;
+    margin: -1.2%;
+    background-image: url("../images/backimage.png");
+    background-position: center center;
+//    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+}
+
+.logo{
+    display:block;
+    padding: 30px 0px 0px 13%;
+    width: 135px;
+    height: 65px;
+    position: fixed;
+
+}
+div.go-down{
+    color: lightgray;
+    font-weight: 100;
+    right: 0;
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	2. About Us
+/*-----------------------------------------------------------------------------------*/
+
+.aboutus{
+    background: #181C2D no-repeat center;
+    background-image: url("../images/scribble.png");
+    padding: 150px 0 150px 0;
+    margin: 1% 0 0 -1.2%;
+    height: 100%;
+    width: 102%;
+    font-family: 'Source Sans Pro';
+}
+.aboutus h3{
+    font-size: 42px;
+    font-style:italic;
+    color: $blue;
+    text-align: left;
+    font-weight: 200;
+    display: inline;
+    position:relative;
+    padding-left: 15%;
+    letter-spacing: -2px;
+}
+
+.aboutus p{
+    color: #969696;
+    letter-spacing:0px;
+    font-size: 14pt;
+    font-weight: 250;
+    text-align: left;
+    display: inline;
+    position: relative;
+//    width: 55%;
+    padding-left: 5%;
+    line-height: 30px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	2.5 1Billion
+/*-----------------------------------------------------------------------------------*/
+
+.world{
+    background: #181C2D no-repeat center;
+//    background-image: url("../images/world.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    z-index: 999;
+    padding: 80px 0;
+    height: 300px;
+    width: 102%;
+    margin: -1% -1% -1% -1%;
+    font-family:  sans-serif;
+    color: $blue;
+    /* custom background-position */
+    background-position:50% 50%;
+}
+.world h3{
+    font-size: 42px;
+    font-weight: 200;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro';
+}
+.world p{
+    color:lightgray;
+    font-weight: 100;
+    line-height: 25px;
+//    float: left;
+//    text-align: left;
+    
+}
+/*-----------------------------------------------------------------------------------*/
+/*	section.3
+/*-----------------------------------------------------------------------------------*/
+
+.section3{
+    background: #060C13;
+    z-index: 999;
+    padding: 80px 0;
+    height: 650px;
+    width: 102%;
+    margin: -1% -1% -1% -1%;
+    color: lightgray;
+    font-weight: 100;
+    font-family: 'Source Sans Pro';
+}
+.section3 h3{
+    color: $blue;
+    font-weight:100;
+    font-size: 30pt;
+}
+.section3 a{
+     text-decoration:none;
+}
+.mac{
+    padding-top: 5%;
+    width: 990px;
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	-moz-transition: -moz-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+}
+
+.section3 p{
+     font-size:12pt;
+}
+
+.border-button {
+    text-align: center;
+	background: url("../images/go-right.png") no-repeat scroll 95% 50% / 6px auto rgba(0, 0, 0, 0);
+    padding: 10px 35px 10px 15px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color:rgba(255,255,255,0.80);
+    border: 1px solid rgba(255,255,255,0.40);
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.border-button:hover {
+    border: 1px solid #FFF;
+    color:#FFF;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	section.4 (Social Media)
+/*-----------------------------------------------------------------------------------*/
+
+.section4{
+//    background: #100a06;
+    background: #ededed;
+    z-index: 999;
+    padding: 80px 0;
+    height: 450px;
+    width: 102%;
+    margin: -1% -1% -1% -1%;
+    color: $blue;
+    font-weight: 100;
+    font-family: 'Source Sans Pro';
+}
+.section4 h3{
+    font-weight:100;
+    font-size: 30pt;
+}
+.social{
+    height: 20%;
+    width: 20%;
+}
+<<<<<<< HEAD
+
+=======
+#aboutme{
+     height: 300px;
+}
+>>>>>>> Added small copyright message, updated styling (removed unnecessary)
+/*-----------------------------------------------------------------------------------*/
+/*	5. Footer (Sign-Up)
+/*-----------------------------------------------------------------------------------*/
+
+.footer{
+    background: #fff no-repeat center;
+    padding: 40px 0 40px 0;
+}
+.footer h4{
+    color:gray;
+    font-weight: 200;
+    font-size: 24pt;
+    text-align: center;
+}
+
+form {
+//    overflow:hidden;
+    width: 100%;
+    text-align: center;
+}
+
+/* Mail Input Send */
+
+input {
+    background-clip: padding-box;
+    background-color: #F4F4F4;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    border-radius: 5px;
+    border: none;
+    margin: 15px 0;
+    color: #333;
+    height: 48px;
+    resize: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+//    padding: 4px 20px 8px;
+    transition: all .3s ease-in-out;
+    width: 480px;
+}
+
+.signupbutton {
+    background-clip: padding-box;
+    background-color: $blue;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0px 15px;
+//    padding:18px 80px 18px 80px;
+    height: 48px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-shadow: none;
+    text-transform: uppercase;
+    width: 350px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.signupbutton:hover {
+    color: #FFF;
+    background: #87d5fe;
+}
+
+.spam {
+    font-size: 12px;
+    padding: 10px 0 10px 0;
+    color: #888;
+}
+
+.copyright {
+  margin-top: 50px;
+  font-weight: 100;
+}
