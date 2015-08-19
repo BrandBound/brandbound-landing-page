@@ -4,8 +4,8 @@
 	"platformLogos": [
 		{"link": "../images/logos/logo_aboutme.png"},
 		{"link": "../images/logos/logo_facebook.png"},
-		{"link": "../images/logos/logo_google.png"},
 		{"link": "../images/logos/logo_github.png"},
+		{"link": "../images/logos/logo_google.png"},
 		{"link": "../images/logos/logo_linkedin.png"},
 		{"link": "../images/logos/logo_twitter.png"}
 	]
