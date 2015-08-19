@@ -33,9 +33,10 @@ body {
 .page-section {
   height: 50%;
 }
-
+.page-section-subscribe {
+  height: 56%;
+}
 nav {
-//  background-color: rgba(24, 28, 45, 0.5);
   padding: 20px 0 20px 13%;
   position: fixed;
   width: 100%;
@@ -89,44 +90,48 @@ nav {
 }
 .billion-sub-heading{
     color: $blue;
-  font-size: 38px;
-  font-weight: 200;
-     float: right;
+    font-size: 38px;
+    font-weight: 200;
+    float: right;
     display: table;
     width: 30%;
-    margin-right: 8%;
+    margin-right: 3%;
 }
 .billion-general-text {
-  color: #969696;
-  text-align: left;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 200;
+    color: #969696;
+    text-align: left;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 200;
     margin-left: 12%;
     padding-bottom: 7px;
     width: 75%;
 }
 
 .sub-heading {
-  color: $blue;
-  font-size: 42px;
-  font-weight: 200;
-    padding-bottom: 8px;
+    color: $blue;
+    font-size: 42px;
+    font-weight: 200;
+    padding-bottom: 15px;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 .general-text {
-  color: #969696;
-  text-align: center;
-  margin: 0;
-  font-size: 18px;
-  font-weight: 200;
+    color: #969696;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 200;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 .backgroundImage {
-  height: 100%;
-  background: url("../images/backgrounds/backimage.png") no-repeat 50% 50%;
-  background-size: cover;
-  background-color: #181C2D;
+    height: 100%;
+    background: url("../images/backgrounds/backimage.png") no-repeat 50% 50%;
+    background-size: cover;
+    background-color: #181C2D;
 }
 
 .go-down {
@@ -141,27 +146,26 @@ nav {
 }
 
 .section-container {
-  height: 100%;
-  background: #181C2D no-repeat center;
+    height: 100%;
+    background: #181C2D no-repeat center;
 }
 
 .about-us {
-  background-image: $scribble;
+    background-image: $scribble;
 }
 
 .world {
-  background-image: $scribble-flipped;
+    background-image: $scribble-flipped;
 }
-
 .content-container {
-  @include vertical-align;
-  padding: 0 20px;
+    @include vertical-align;
+    padding: 0 20px;
 }
 
 .improve-results {
-  height: 100%;
-  background: #060C13;
-  background-image: $scribble;
+    height: 100%;
+    background: #060C13;
+    background-image: $scribble;
 }
 
 .platforms {
@@ -186,18 +190,18 @@ nav {
 
     /* W3C Markup */ 
     background-image: linear-gradient(to top, #ffffff 1%, #CCCCCC 100%);
-}
+    
+    }
 .subscribe{
     background-size: 100% 100%;
     height: auto;
 }
 
 .mac-image {
-    padding: 2% 0;
+    padding: 20px 0;
     width: 990px;
     width: 85%;
     height: auto;
-    
 }
 
 .button {
@@ -218,12 +222,12 @@ nav {
 }
 
 .social {
-  margin: 10px;
+    margin: 10px;
 }
 
 ul.image-grid {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 
   li {
     list-style: none;
@@ -232,15 +236,16 @@ ul.image-grid {
 }
 
 .footer {
-  background: #fff no-repeat center;
-  padding: 10px 0 10px 0;
+    background: #fff no-repeat center;
+    padding: 10px 0 10px 0;
 }
 
 .signup {
-  height: 100%;
+    height: 100%;
+    padding: 3%;
 
   h4 {
-    color: gray;
+    color: $blue;
     font-weight: 200;
     font-size: 26pt;
     text-align: center;
@@ -262,13 +267,13 @@ ul.image-grid {
         color:rgba(255,255,255,0.80);
         border: 1px solid rgba(0,0,0,0.40);
         color: black;
-        margin-top: 5px;
+        margin-top: 4px;
     }
 }
 
 .copyright {
-  margin: 20px 0;
-  font-weight: 100;
-  font-family: 'Source Sans Pro';
-  font-size: 10pt;
+    margin: 20px 0;
+    font-weight: 100;
+    font-family: 'Source Sans Pro';
+    font-size: 10pt;
 }
