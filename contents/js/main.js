@@ -19,7 +19,7 @@ $(document).ready(function () { // Document ready
     });
     
 /*-----------------------------------------------------------------------------------*/
-    /*	01. ACCESS BUTTON SLIDE ANIMATION
+    /*	01. Go-Down and ACCESS BUTTON SLIDE ANIMATION
 /*-----------------------------------------------------------------------------------*/
 
     
@@ -30,6 +30,12 @@ $(document).ready(function () { // Document ready
         return false;
 //        alert("I am an alert box!");
     });
+    
+    $("#godown").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#aboutus").offset().top
+        }, 500);
+});
     
     
     /*-----------------------------------------------------------------------------------*/
