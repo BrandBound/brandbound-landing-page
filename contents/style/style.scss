@@ -93,9 +93,16 @@ nav {
     font-size: 38px;
     font-weight: 200;
     float: right;
-    display: table;
+    display:table;
     width: 30%;
     margin-right: 3%;
+}
+@media screen and (max-width: 500px){
+    .billion-sub-heading{
+        float: left;
+        width: auto;
+        margin-right: 3%;
+    }
 }
 .billion-general-text {
     color: #969696;
