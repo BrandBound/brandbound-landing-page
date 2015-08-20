@@ -101,7 +101,14 @@ nav {
     .billion-sub-heading{
         float: left;
         width: auto;
-        margin-right: 3%;
+    }
+    .aboutus-sub-heading {
+        float: none;
+    }
+
+    .aboutus-general-text {
+        margin-left: 12%;
+        width: 75%;
     }
 }
 .billion-general-text {
