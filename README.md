@@ -8,6 +8,7 @@ Repository for the BrandBound landing page.
 * Clone project
 * Install gulp (`npm install -g gulp`)
 * Run `npm install` in project
+* Run `npm install wintersmith-autoprefixer-sass` in project
 * Run `wintersmith build` (will create `build` folder)
 
 # Deploy
